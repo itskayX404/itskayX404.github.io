@@ -699,5 +699,26 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+       body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.dark-mode body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dark-mode .container {
+    background-color: #333;
+    color: #ffffff;
+}
 }
 /* End  Media Query For Desktop */

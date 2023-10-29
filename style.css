@@ -699,7 +699,9 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
-       body {
+}
+      
+body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #000000;
